@@ -8,7 +8,7 @@
 @font-face {
   font-family: Roboto;
   src: url(/fonts/Roboto-Bold.ttf) format("truetype");
-  font-weight: Bold;
+  font-weight: bold;
 }
 
 @font-face {
@@ -20,7 +20,7 @@
 @font-face {
   font-family: Mukta;
   src: url(/fonts/Mukta-Bold.ttf) format(truetype);
-  font-weight: Bold;
+  font-weight: bold;
 }
 @font-face {
   font-family: Mooli;
@@ -83,6 +83,27 @@ header {
   color: #fff;
   text-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
   margin: 0 0 3rem 1rem;
+}
+
+.banner button {
+  background: linear-gradient(to right, #aa3fec, #8340ea);
+  width: 15rem;
+  height: 5rem;
+  font-size: 1.3rem;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  border-radius: 3rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+  margin-left: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.banner button:hover {
+  transform: translateY(0.2rem);
 }
 /* End of Banner */
 
