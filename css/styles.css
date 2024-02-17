@@ -22,6 +22,11 @@
   src: url(/fonts/Mukta-Bold.ttf) format(truetype);
   font-weight: Bold;
 }
+@font-face {
+  font-family: Mooli;
+  src: url(/fonts/Mooli-Regular.ttf) format(truetype);
+  font-weight: normal;
+}
 /* Font ending */
 
 /* Default Style */
@@ -55,6 +60,31 @@ header {
   position: relative;
 }
 /* End of Header */
+
+/* Banner */
+.banner {
+  position: absolute;
+  top: 18%;
+  left: 20%;
+  z-index: 5;
+}
+
+.banner h1 {
+  font-family: "Mooli", cursive;
+  font-size: 13rem;
+  color: #fff;
+  text-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.4);
+}
+
+.banner h3 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+  text-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+  margin: 0 0 3rem 1rem;
+}
+/* End of Banner */
 
 /* Backgrounds */
 .backgrounds div {
