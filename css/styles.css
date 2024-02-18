@@ -162,7 +162,7 @@ html {
   transition: all 0.3s;
 }
 
-.stycky .nav-btn {
+.sticky .nav-btn {
   background: linear-gradient(to right, #ff45b9, #ff3598);
   box-shadow: none;
   color: #fff;
