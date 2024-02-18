@@ -70,7 +70,15 @@ html {
   justify-content: space-between;
   align-items: center;
   padding: 0 15rem;
+  transition: all 0.3s;
 }
+
+.sticky {
+  height: 8rem;
+  background-color: #fff;
+  box-shadow: 0 1rem 10rem rgba(130, 162, 235, 0.6);
+}
+
 /* End of Navigation */
 
 /* Logo */
@@ -92,6 +100,7 @@ html {
   transform: translateY(-0.8rem);
   display: inline-block;
 }
+
 .logo span:nth-child(2) {
   font-family: "Croissant One", cursive;
   font-size: 1.5rem;
@@ -104,6 +113,12 @@ html {
 .logo span {
   text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
+
+.sticky .logo span {
+  color: #092627;
+  text-shadow: none;
+}
+
 /* End of Logo */
 
 /* Nav items */
@@ -116,6 +131,11 @@ html {
 
 .nav-item {
   list-style: none;
+}
+
+.sticky .nav-link {
+  color: #092627;
+  text-shadow: none;
 }
 
 .nav-link {
@@ -140,6 +160,12 @@ html {
   color: #f88344;
   text-transform: uppercase;
   transition: all 0.3s;
+}
+
+.stycky .nav-btn {
+  background: linear-gradient(to right, #ff45b9, #ff3598);
+  box-shadow: none;
+  color: #fff;
 }
 
 .nav-btn:hover {
