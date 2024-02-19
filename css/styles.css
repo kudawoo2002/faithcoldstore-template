@@ -1,36 +1,36 @@
 /* Loading of the fonts locally */
 @font-face {
   font-family: Roboto;
-  src: url(/fonts/Roboto-Regular.ttf) format("truetype");
+  src: url(fonts/Roboto-Regular.ttf) format("truetype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: Roboto;
-  src: url(/fonts/Roboto-Bold.ttf) format("truetype");
+  src: url(fonts/Roboto-Bold.ttf) format("truetype");
   font-weight: bold;
 }
 
 @font-face {
   font-family: Mukta;
-  src: url(/fonts/Mukta-Regular.ttf) format("truetype");
+  src: url(fonts/Mukta-Regular.ttf) format("truetype");
   font-weight: normal;
 }
 
 @font-face {
   font-family: Mukta;
-  src: url(/fonts/Mukta-Bold.ttf) format(truetype);
+  src: url(fonts/Mukta-Bold.ttf) format(truetype);
   font-weight: bold;
 }
 @font-face {
   font-family: Mooli;
-  src: url(/fonts/Mooli-Regular.ttf) format(truetype);
+  src: url(fonts/Mooli-Regular.ttf) format(truetype);
   font-weight: normal;
 }
 
 @font-face {
   font-family: Croissant one;
-  src: url(/fonts/CroissantOne-Regular.ttf) format(truetype);
+  src: url(fonts/CroissantOne-Regular.ttf) format(truetype);
   font-weight: normal;
 }
 /* Font ending */
