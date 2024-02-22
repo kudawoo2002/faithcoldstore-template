@@ -215,3 +215,13 @@ fullScreenBtnEl.addEventListener("click", () => {
   mainVideoEl.requestFullscreen();
 });
 // End of Video
+// const activePage = window.location.pathname;
+
+// const navLinkEl = document.querySelectorAll(".nav-link");
+// navLinkEl.forEach((item) => {
+//   item.addEventListener("click", () => {
+//     if (item.href.includes(`${activePage}`)) {
+//       item.classList.add("nav-btn");
+//     }
+//   });
+// });

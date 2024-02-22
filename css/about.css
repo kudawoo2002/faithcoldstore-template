@@ -35,13 +35,13 @@ body::-webkit-scrollbar-thumb {
   column-gap: 6.4rem;
   row-gap: 9.6rem;
   grid-template-columns: 1fr 1fr;
-
   align-items: center;
-  /* padding: 0 30rem; */
-  /* box-shadow: 0 2rem 8rem rgba(0, 0, 0, 0.4); */
+  position: relative;
+  z-index: 3;
 }
 
 .about-content h3 {
+  display: inline-block;
   font-size: 3rem;
   font-family: "Croissant One", cursive;
   color: #5e728f;
@@ -70,5 +70,30 @@ body::-webkit-scrollbar-thumb {
 .about-img {
   width: 100%;
   height: auto;
+  border-radius: 5rem;
+}
+
+.about-bg-1 {
+  width: 80rem;
+  height: 80rem;
+  position: absolute;
+  background: linear-gradient(to right, transparent, transparent, #ff43a7);
+  top: 25%;
+  right: 5%;
+  opacity: 0.3;
+  transform: rotate(-10deg);
+  border-radius: 5rem;
+}
+
+.about-bg-2 {
+  position: absolute;
+  width: 80rem;
+  height: 80rem;
+  background: linear-gradient(to left, transparent, transparent, #74b5ff);
+  top: 25%;
+  left: 5%;
+  border-radius: 5rem;
+  opacity: 0.3;
+  transform: rotate(-10deg);
 }
 /* End about us */
