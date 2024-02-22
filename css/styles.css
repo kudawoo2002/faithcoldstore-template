@@ -133,6 +133,11 @@ body::-webkit-scrollbar-track {
   text-shadow: none;
 }
 
+.multi-page-nav .logo span {
+  color: #092627;
+  text-shadow: none;
+}
+
 /* End of Logo */
 
 /* Nav items */
@@ -147,17 +152,22 @@ body::-webkit-scrollbar-track {
   list-style: none;
 }
 
-.sticky .nav-link {
-  color: #092627;
-  text-shadow: none;
-}
-
 .nav-link {
   font-size: 2rem;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   text-shadow: 0 0.5rem 1 rem rgba(0, 0, 0, 0.2);
+}
+
+.sticky .nav-link {
+  color: #092627;
+  text-shadow: none;
+}
+
+.multi-page-nav .nav-link {
+  color: #092627;
+  text-shadow: none;
 }
 
 .nav-btn {
@@ -176,6 +186,11 @@ body::-webkit-scrollbar-track {
   transition: all 0.3s;
 }
 
+.multi-page-nav .nav-items .nav-btn {
+  background: linear-gradient(to right, #ff45b9, #ff3598);
+  box-shadow: none;
+  color: #fff;
+}
 .sticky .nav-btn {
   background: linear-gradient(to right, #ff45b9, #ff3598);
   box-shadow: none;
@@ -186,6 +201,7 @@ body::-webkit-scrollbar-track {
   cursor: pointer;
   transform: translateY(-0.2rem);
 }
+
 /* End of Nav items */
 
 /* Header */

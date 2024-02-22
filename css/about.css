@@ -1,0 +1,74 @@
+/* Scrollbar color */
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(#00b67a, #34dc84);
+}
+/* End of scrollbar */
+
+/* About us */
+.about {
+  width: 100%;
+  height: 100%;
+  margin: 20rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Mooli", cursive;
+  color: #393453;
+  margin-bottom: 8rem;
+  text-transform: uppercase;
+}
+
+.about-wrapper {
+  margin: 0 10rem;
+  padding: 12rem;
+  box-shadow: 0 2rem 6rem rgba(130, 162, 255, 0.3);
+}
+
+.about-content {
+  max-width: 120rem;
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+  grid-template-columns: 1fr 1fr;
+
+  align-items: center;
+  /* padding: 0 30rem; */
+  /* box-shadow: 0 2rem 8rem rgba(0, 0, 0, 0.4); */
+}
+
+.about-content h3 {
+  font-size: 3rem;
+  font-family: "Croissant One", cursive;
+  color: #5e728f;
+  margin-bottom: 1.8rem;
+}
+
+.about-content p {
+  font-size: 1.8rem;
+  color: #889cb9;
+  line-height: 1.8;
+}
+
+/* .story-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+} */
+
+.about-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-img {
+  width: 100%;
+  height: auto;
+}
+/* End about us */
