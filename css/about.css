@@ -27,6 +27,7 @@ body::-webkit-scrollbar-thumb {
 .about-wrapper {
   margin: 0 10rem;
   padding: 12rem;
+  border-radius: 1rem;
   box-shadow: 0 2rem 6rem rgba(130, 162, 255, 0.3);
 }
 
