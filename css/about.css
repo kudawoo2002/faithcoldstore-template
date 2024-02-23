@@ -81,9 +81,9 @@ body::-webkit-scrollbar-thumb {
   height: 80rem;
   position: absolute;
   background: linear-gradient(to right, transparent, transparent, #ff43a7);
-  top: 25%;
+  top: 70%;
   right: 5%;
-  opacity: 0.3;
+  opacity: 0.2;
   transform: rotate(-10deg);
   border-radius: 5rem;
 }
@@ -93,10 +93,10 @@ body::-webkit-scrollbar-thumb {
   width: 80rem;
   height: 80rem;
   background: linear-gradient(to left, transparent, transparent, #74b5ff);
-  top: 25%;
+  top: 70%;
   left: 5%;
   border-radius: 5rem;
-  opacity: 0.3;
+  opacity: 0.2;
   transform: rotate(-10deg);
 }
 /* End about us */
