@@ -13,6 +13,14 @@ body::-webkit-scrollbar-thumb {
   justify-content: center;
   align-items: center;
 }
+
+.about-wrapper {
+  margin: 0 10rem;
+  padding: 12rem;
+  border-radius: 1rem;
+  box-shadow: 0 2rem 6rem rgba(130, 162, 255, 0.3);
+}
+
 .about h1 {
   text-align: center;
   font-size: 6rem;
@@ -22,13 +30,6 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 8rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-}
-
-.about-wrapper {
-  margin: 0 10rem;
-  padding: 12rem;
-  border-radius: 1rem;
-  box-shadow: 0 2rem 6rem rgba(130, 162, 255, 0.3);
 }
 
 .about-content {
