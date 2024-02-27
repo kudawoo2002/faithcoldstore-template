@@ -58,13 +58,23 @@ body::-webkit-scrollbar-thumb {
   justify-content: flex-start;
   align-items: center;
 }
-.mail span {
-  margin-right: 3rem;
-  font-size: 5rem;
-  background-color: #e03a5b;
+.mail i {
+  width: 10rem;
+  height: 10rem;
+  font-size: 4rem;
+  background-color: #fff;
+  box-shadow: 0 1rem 4rem rgba(75, 119, 225, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  background: linear-gradient(#fff, #1259dd 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .mail p {
   font-size: 2rem;
   font-weight: bold;
@@ -75,10 +85,19 @@ body::-webkit-scrollbar-thumb {
   justify-content: flex-start;
   align-items: center;
 }
-.phone span {
-  margin-right: 3rem;
-  font-size: 5rem;
-  background-color: #4400c5;
+.phone i {
+  width: 10rem;
+  height: 10rem;
+  font-size: 4rem;
+  background-color: #fff;
+  box-shadow: 0 1rem 4rem rgba(75, 119, 225, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  background: linear-gradient(#fff, #fa751c 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -92,9 +111,18 @@ body::-webkit-scrollbar-thumb {
   justify-content: flex-start;
   align-items: center;
 }
-.location span {
-  margin-right: 3rem;
-  font-size: 5rem;
+.location i {
+  width: 10rem;
+  height: 10rem;
+  font-size: 4rem;
+  background-color: #fff;
+  box-shadow: 0 1rem 4rem rgba(75, 119, 225, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
   background-color: #8430ea;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
